@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: clamp(1.39rem, 4.8vw, 6rem);
   position: relative;
   display: inline-block;
   animation: text_reveal 0.5s ease forwards;
